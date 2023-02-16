@@ -1,0 +1,37 @@
+p#pogrubienie_Gemsa{
+font-size: 30px;
+color: #805BCA;
+font-weight: bold;
+}
+
+p#pochylona_Gemsa{
+font-size: 35pt;
+color: #E4BF66;
+font-style: italic;
+}
+
+p#index_gorny_Gemsa{
+font-size: 3cm;
+color: #948D16;
+vertical-align: super;
+}
+
+p#index_dolny_Gemsa{
+font-size: 3,5cm;
+color: RGB(19%, 95%, 87%);
+vertical-align: sub;
+}
+
+p#mono_Gemsa{
+font-size: 40px;
+color: #14DD66;
+font-family: monospace;
+}
+
+p#powiekszenie_Gemsa{
+color: #4E3D98;
+}
+
+p#pomniejszenie_Gemsa{
+color: RGB(70%, 63%, 21%);
+}
