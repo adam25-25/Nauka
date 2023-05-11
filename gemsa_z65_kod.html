@@ -1,0 +1,114 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+<h2>Plik HTML</h2>
+<textarea cols="70" rows="66">
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+	@import url("gems_z65.css");
+</style>
+</head>
+<body>
+
+<div id="pierwszy_Gemsa">
+<p>Pierwszy akapit/pierwszy DIV-->Gemsa<br>
+nazwa ID akapitu id="pierwszy_gemsa"</p>
+
+<p>Drugi akapit/pierwszy DIV<br>
+pierwszy akapit--> p:first-child {font-size:9mm;font-style:italic;}<br>
+bo numer parzysty w dzienniku<br>
+pozostałe akapity--> p{font-size:10pt;} bo numer parzysty<br>
+szerokość bloku = 700+10*4=740pt<br>
+pierwszy DIV--> kolor jasno zielony<br></p>
+
+<p>trzeci akapit/pierwszy DIV<br>
+pierwszy DIV--> obramowanie czarne DIV<br>
+pierwszy DIV--> obramowanie grubość 3px<br>
+pierwszy DIV--> r1=7mm+4(Adam)=11mm<br></p>
+<br>
+</div>
+
+<br><br><br><br>
+
+<div id="drugi_Gemsa">
+<p>Pierwszy akapit/drugi DIV-->Adam<br>
+nazwa ID akapitu id="drugi_gemsa"</p>
+
+<p>Drugi akapit/drugi DIV<br>
+drugi DIV--> kolor kolor jasno niebieski<br></p>
+
+<p>trzeci akapit/drugi DIV<br>
+drugi DIV--> obramowanie granatowe DIV<br>
+drugi DIV--> obramowanie grubość 5px<br>
+drugi DIV--> r2=7mm+5(Gemsa)=12mm<br></p>
+<br>
+</div>
+
+<br><br><br><br>
+
+<div id="trzeci_Gemsa">
+<p>Pierwszy akapit/trzeci DIV-->klasa ucznia 1P nazwa ID akapitu id="trzeci_gemsa"</p>
+
+<p>Drugi akapit/trzeci DIV<br>
+drugi DIV--> kolor kolor różowy<br></p>
+
+<p>trzeci akapit/drugi DIV<br>
+drugi DIV--> obramowanie fioletowy DIV<br>
+drugi DIV--> obramowanie grubość 7px<br>
+drugi DIV--> r3=7mm+2(Luty)=9mm<br></p>
+<br>
+</div>
+
+</body>
+</html>
+</textarea>
+
+<br><br>
+
+<h2>Plik CSS</h2>
+<textarea cols="70" rows="38">
+p:first-child{
+font-size:9mm;
+font-style:italic;
+}
+
+p{
+font-size:10pt;
+}
+
+body{
+background-color: RGB(192, 192, 192);
+}
+
+div#pierwszy_Gemsa{
+background-color: RGB(124, 252, 0);
+border: solid 3px RGB(0, 0, 0);
+width: 740pt;
+margin-left: auto;
+margin-right: auto;
+border-radius: 11mm;
+}
+
+div#drugi_Gemsa{
+background-color: RGB(135, 206, 250);
+border: solid 5px RGB(0, 0, 128);
+width: 940pt;
+margin-left: auto;
+margin-right: auto;
+border-radius: 12mm;
+}
+
+div#trzeci_Gemsa{
+background-color: RGB(255, 192, 203);
+border: solid 7px RGB(238, 130, 238);
+width: 1140pt;
+border-radius: 9mm;
+}
+</textarea>
+
+</body>
+</html>

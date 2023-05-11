@@ -1,0 +1,34 @@
+div#blok1_Gemsa{
+	background-color: green;
+	width: 610px;
+}
+
+div#blok2_Gemsa{
+	background-color: green;
+	width: 610px;
+}
+
+div#blok3_Gemsa{
+	background-color: green;
+	width: 610px;
+}
+
+div#blok1_Gemsa:hover{
+	background-color: lightgreen;
+	font-size: 19mm;
+}
+
+div#blok2_Gemsa:hover{
+	background-color: red;
+	font-size: 19mm;
+}
+
+div#blok3_Gemsa:hover{
+	background-color: orange;
+	font-size: 19mm;
+}
+
+/* hover; - zmiany pewnych elementów po najechaniu
+	na nie urządzeniem wskazującym (np. myszą), np. odsyłacz, nad
+	którym zatrzymano kusor lub element blokowy DIV.
+	Adam Gemsa*/

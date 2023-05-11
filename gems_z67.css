@@ -1,0 +1,47 @@
+p#pierwszy:first-letter{
+font-size: 112pt;
+color: red;
+}
+
+p#drugi:first-letter{
+font-size: 112pt;
+color: orange;
+}
+
+p#pierwszy{
+font-size: 19pt;
+color: yellow;
+}
+
+p#drugi{
+font-size: 18pt;
+color: yellow;
+}
+
+
+
+
+h1{
+color: purple;
+}
+
+h1:first-letter{
+color: silver;
+font-size: 112pt;
+}
+
+
+
+
+p#trzeci{
+color: RGB(0, 0, 128);
+font-size: 20pt;
+}
+
+p#trzeci:first-line{
+color: red;
+}
+
+p#trzeci:first-letter{
+font-size: 112pt;
+}

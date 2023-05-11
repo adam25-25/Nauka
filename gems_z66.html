@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta charset="utf-8">
+</head>
+<body>
+
+<h2>Pseudoelement <b>:first-line</b></h2>
+<b>Pseudoelement :first-line, który obejmuje formatowaniem całą pierwszą linię.</b><br>
+<textarea cols="30" rows="12">
+p
+ {
+ color:navy;
+ font-size:12pt;
+ }
+p:first-line
+ {
+ color:red;
+ font-size:20pt;
+ font-weight:bold;
+ }
+</textarea>
+
+<h2>Pseudoelementy <b>:after oraz :before</b></h2>
+<b>Pseudoelementy: :after oraz :before,</b> oba elementy służą do umieszczania tekstu przed i za formatowanym elementem strony.<br>
+<textarea cols="30" rows="14">
+p:before
+ {
+ content:"TO SĄ ĆWICZENIA";
+ font-size:15pt;
+ font-style:italic; 
+ font-weight:bold;
+ }
+p:after
+ {
+ content:"AUTOR Król Lew";
+ font-size:15pt;
+ font-style:italic;
+ font-weight:bold;
+ }
+</textarea>
+
+<h2>pseudoelement <b>:first-letter</b></h2>
+<b>Pseudoelement :first-letter</b> pozwala na formatowanie pierwszej litery w bloku tekstu.
+<textarea cols="30" rows="12">
+p
+ {
+ color:navy;
+ font-size:30pt;
+ }
+p:first-letter
+ {
+ color:red;
+ font-size:100pt;
+ }
+</textarea>
+
+
+
+</body>
+</html>

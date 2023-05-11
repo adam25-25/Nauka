@@ -1,0 +1,24 @@
+body
+{
+background-color: rgb(169, 169, 169);
+}
+
+p
+{
+font-size:19mm;
+color:RGB(32, 42, 68);
+}
+
+p:lang(pl)
+{
+font-weight:bold;
+color:RGB(0, 0, 0);
+font-size: 26mm;
+}
+
+p:lang(en)
+{
+font-style:italic;
+font-size: 33mm;
+color: RGB(255, 255, 0);
+}

@@ -1,0 +1,37 @@
+p:first-child{
+font-size:9mm;
+font-style:italic;
+}
+
+p{
+font-size:10pt;
+}
+
+body{
+background-color: RGB(192, 192, 192);
+}
+
+div#pierwszy_Gemsa{
+background-color: RGB(124, 252, 0);
+border: solid 3px RGB(0, 0, 0);
+width: 740pt;
+margin-left: auto;
+margin-right: auto;
+border-radius: 11mm;
+}
+
+div#drugi_Gemsa{
+background-color: RGB(135, 206, 250);
+border: solid 5px RGB(0, 0, 128);
+width: 940pt;
+margin-left: auto;
+margin-right: auto;
+border-radius: 12mm;
+}
+
+div#trzeci_Gemsa{
+background-color: RGB(255, 192, 203);
+border: solid 7px RGB(238, 130, 238);
+width: 1140pt;
+border-radius: 9mm;
+}
